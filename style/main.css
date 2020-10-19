@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    position: relative;
+    display: flex;
+    padding: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    padding: 1rem;
+}
+
+.home {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.home-logo img {
+    width: 30%;
+    transition: all .5s ease-in-out;
+}
+
+.home-logo img:hover {
+    transform: scale(1.1);
+}
+
+.home-ip h2 {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.home-desc {
+    margin-top: 1vh;
+}
+
+.home-desc p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.buttons-list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.single-button {
+    padding: 0 1.5rem;
+}
+
+.single-button:nth-last-child() {
+    padding: 0;
+}
+
+.single-button a {
+    background: none;
+    padding: .85rem 1.7rem;
+    border: 1px solid rgb(24, 199, 152);
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+    transition: .6s;
+    text-transform: uppercase;
+}
+
+.single-button a:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    background-color: rgb(24, 199, 152);
+}
+
+.single-button {
+    transition: .6s;
+}
+
+.single-button:hover {
+    transform: scale(1.1);
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    margin-left: .7vw;
+}
+
+.single-social {
+    padding-right: 2rem;
+    font-size: 1.3rem;
+    transition: .5s;
+}
+
+.single-social:hover {
+    transform: scale(1.1);
+}
+
+.last {
+    padding-right: 0;
+}
+
+.single-social a {
+    padding: .6rem .8rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    color: black;
+    transition: .5s;
+}
+
+.single-social a:hover {
+    background-color:rgb(24, 199, 152);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.copyright p {
+    color: rgb(216, 216, 216);
+}
